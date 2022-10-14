@@ -4,7 +4,6 @@ import { StyledContainer } from './style';
 
 export const Weather = () => {
 	const [isOn, setIsOn] = React.useState(false);
-	console.log(isOn);
 
 	return (
 		<StyledContainer>
