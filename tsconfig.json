@@ -23,7 +23,8 @@
 			"@store": ["store"],
 			"@hooks": ["hooks"],
 			"@helpers": ["helpers"],
-			"@constants": ["constants"]
+			"@constants": ["constants"],
+			"@services": ["services"]
 		}
 	},
 	"include": ["src"]

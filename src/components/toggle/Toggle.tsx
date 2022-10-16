@@ -24,7 +24,7 @@ export const Toggle: React.FC<ToggleProps> = props => {
 					className={switchCheckbox}
 					id={name}
 					type="checkbox"
-					value={isOn ? secondLabel.text : firstLabel.text}
+					value={isOn ? firstLabel.text : secondLabel.text}
 					onChange={onChange}
 				/>
 				<label className={switchLabel} htmlFor={name}>
